@@ -4,17 +4,32 @@ body{
     font-weight: 400;
     font-style: normal; */
   
-  
-
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
-
         
   /* font-size: 50px; */
 
   h1{
-    font-size: 200px;
+    font-size: 125px;
   }
 
+}
+
+main{
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: rgb(246, 230, 218);
+  padding: 20px;
+}
+
+#head{
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.subhead{
+  margin-left: auto;
+  order: 2;
 }
