@@ -1,3 +1,10 @@
+:root {
+  --background-color: rgb(237, 246, 248);
+  --light-color: #ffffff;
+  --dark-color: #000000;
+  --link-color: rgb(196, 16, 205);
+}
+
 body{
 
     /* font-family: "DM Serif Text", serif;
@@ -7,6 +14,8 @@ body{
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
+    background-color: var;
+    margin:0 1em; 
         
   /* font-size: 50px; */
 
@@ -24,14 +33,20 @@ main{
   padding: 20px;
 }
 
-#head{
-  margin-left: auto;
-  text-decoration: none;
+#head {
+  display: flex;
+  justify-content: space-between;
 }
 
 .subhead{
   margin-left: auto;
   order: 2;
+}
+
+.post {
+  border:1px solid var(--dark-color);
+  margin-bottom: 1em;
+  padding: .5em 1em;
 }
 
 .post, #post{
@@ -54,4 +69,12 @@ a:hover{
   text-decoration: underline;
 }
 
+}
+
+.highlight{
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  h2{
+    color: var(--light-color);
+  }
 }
