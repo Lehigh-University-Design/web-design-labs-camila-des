@@ -33,3 +33,25 @@ main{
   margin-left: auto;
   order: 2;
 }
+
+.post, #post{
+.img-container{
+  aspect-ratio: 3/2;
+}
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a{
+  color: var(--link-color);
+  background-color: var(--light-color);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+}
