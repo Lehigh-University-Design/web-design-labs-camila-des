@@ -1,28 +1,21 @@
 :root {
-  --background-color: rgb(237, 246, 248);
+  --background-color: rgb(226, 211, 172);
   --light-color: #ffffff;
   --dark-color: #000000;
   --link-color: rgb(111, 108, 108);
 }
 
 body{
-
-    /* font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: normal; */
   
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: italic;
     background-color: var;
-    margin:0 1em; 
-        
-  /* font-size: 50px; */
+    margin:0 1em;
 
   h1{
     font-size: 125px;
   }
-
 }
 
 main{
