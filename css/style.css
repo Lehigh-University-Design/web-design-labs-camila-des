@@ -97,3 +97,34 @@ a:hover{
 .fixed {
   z-index: auto;
 }
+
+.sticky-demo-holder{
+  overflow:scroll;
+  position: relative;
+  border: 1px solid var(--dark-color);
+  width: 100%;
+  margin-bottom: 1em;
+  height: 200px;
+  p{
+    margin: 1em;
+  }
+}
+
+.absolute-demo-holder {
+  position: relative;
+  border: 1px solid var(--dark-color);
+  width: 100%;
+  margin-bottom: 1em;
+  aspect-ratio: 4/3;
+}
+
+.absolute-bubble {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: coral;
+  border-radius: 50px;
+  transform: translate();
+}
