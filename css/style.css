@@ -94,6 +94,6 @@ a:hover{
   display: inline;
 }
 
-.inline{
-  
+.fixed {
+  z-index: auto;
 }
