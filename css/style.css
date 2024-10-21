@@ -23,6 +23,7 @@ main{
 }
 
 #head {
+  font-size: 1.5vw;
   display: flex;
   justify-content: space-between;
 }
