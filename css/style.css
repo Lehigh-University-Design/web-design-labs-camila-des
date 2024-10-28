@@ -428,3 +428,16 @@ a:hover{
   display: grid;
   place-content: center; /*start, center, end (shorthand for justify-content with align-content)*/
 }
+
+
+/*LAB 7 BEGIN*/
+#simple-grid, #gallery-grid{
+  width: 100%;
+  margin-bottom: 2vw;
+}
+
+.gal-item{
+  width: 100%;
+  aspect-ratio: 1;
+}
+/*LAB 7 END*/
